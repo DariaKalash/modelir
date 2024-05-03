@@ -1,6 +1,7 @@
-print("Задание 6")
+#Задание 6
 string = input("Введите строку: ")
 palindrome = True
+
 if string[::-1] != string:
     palindrome = False
 if palindrome:
